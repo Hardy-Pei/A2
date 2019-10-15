@@ -78,7 +78,7 @@ int nodes(MPI_Comm cartComm, int interNodeTag, int eventTag, int msgTag, int exi
 		startComm = MPI_Wtime();
 		for (i=0; i<adjNum; i++) {
 			startEn = MPI_Wtime();
-			encrypt_p(&rNum, adjKeys[i*2], adjKeys[i*2+1], &eNum, 1);
+			encrypt(&rNum, adjKeys[i*2], adjKeys[i*2+1], &eNum, 1);
 			endEn = MPI_Wtime();
 			encryptTime = encryptTime + (endEn - startEn)*scale;
 			MPI_Isend(&eNum, 1, MPI_LONG, adjNodes[i], interNodeTag, cartComm, &r[nreq++]);
@@ -91,7 +91,7 @@ int nodes(MPI_Comm cartComm, int interNodeTag, int eventTag, int msgTag, int exi
 
 		MPI_Waitall(nreq, r, statuses);
 		startEn = MPI_Wtime();
-		decrypt_p(eRand, priKeys[0], priKeys[1], rRand, adjNum);
+		decrypt(eRand, priKeys[0], priKeys[1], rRand, adjNum);
 		endEn = MPI_Wtime();
 		encryptTime += encryptTime + (endEn - startEn)*scale;
 		endComm = MPI_Wtime();

@@ -41,9 +41,11 @@ int privateKey(long p, long q, long pubexp, long *exp, long *mod) {
 }
 
 int encrypt(long *in, long exp, long mod, long *out, size_t len) {
-	for (int i=0; i< len; i++) {
+	int i;
+	for (i=0; i< len; i++) {
 		long c = in[i];
-		for (int z=1; z<exp; z++) {
+		int z;
+		for (z=1; z<exp; z++) {
 			c *= in[i];
 			c %= mod;
 		}
@@ -54,9 +56,11 @@ int encrypt(long *in, long exp, long mod, long *out, size_t len) {
 }
 
 int decrypt(long * in, long exp, long mod, long * out, size_t len) {
-	for (int i=0; i<len; i++) {
+	int i;
+	for (i=0; i<len; i++) {
 		long int c = in[i];
-		for (int z = 1; z<exp; z++) {
+		int z;
+		for (z = 1; z<exp; z++) {
 			c *= in[i];
 			c %= mod;
 		}
@@ -73,7 +77,8 @@ int encrypt_p(long *in, long exp, long mod, long *out, size_t len) {
 		#pragma omp for schedule(static, chunk)
 		for (i=0; i< len; i++) {
 			long c = in[i];
-			for (int z=1; z<exp; z++) {
+			int z;
+			for (z=1; z<exp; z++) {
 				// printf("%d\n", tid);
 				c *= in[i];
 				c %= mod;
@@ -92,7 +97,8 @@ int decrypt_p(long * in, long exp, long mod, long * out, size_t len) {
 		#pragma omp for schedule(static, chunk)
 		for (i=0; i<len; i++) {
 			long int c = in[i];
-			for (int z = 1; z<exp; z++) {
+			int z;
+			for (z = 1; z<exp; z++) {
 				// printf("%d\n", tid);
 				c *= in[i];
 				c %= mod;
@@ -113,7 +119,8 @@ int decrypt_p(long * in, long exp, long mod, long * out, size_t len) {
 // }
 
 int long2char(long *in, char *out, size_t len) {
-	for (int i=0; i<len; i++) {
+	int i;
+	for (i=0; i<len; i++) {
 		// printf("%ld\n", in[i]);
 		out[i] = (char)in[i];
 		// printf("%c\n", out[i]);
@@ -122,7 +129,8 @@ int long2char(long *in, char *out, size_t len) {
 }
 
 int char2long(char *in, long *out, size_t len) {
-	for (int i=0; i<len; i++) {
+	int i;
+	for (i=0; i<len; i++) {
 		out[i] = (int)in[i];
 	}
 	return 0;
