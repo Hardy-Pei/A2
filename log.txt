@@ -1,0 +1,336 @@
+Node 0, IP address: 1.0.0.0
+Node 1, IP address: 1.0.0.0
+Node 2, IP address: 1.0.0.0
+Node 3, IP address: 1.0.0.0
+Node 4, IP address: 1.0.0.0
+Node 5, IP address: 1.0.0.0
+Node 6, IP address: 1.0.0.0
+Node 7, IP address: 1.0.0.0
+Node 8, IP address: 1.0.0.0
+Node 9, IP address: 1.0.0.0
+Node 10, IP address: 1.0.0.0
+Node 11, IP address: 1.0.0.0
+Node 12, IP address: 1.0.0.0
+Node 13, IP address: 1.0.0.0
+Node 14, IP address: 1.0.0.0
+Node 15, IP address: 1.0.0.0
+Node 16, IP address: 1.0.0.0
+Node 17, IP address: 1.0.0.0
+Node 18, IP address: 1.0.0.0
+Node 19, IP address: 1.0.0.0
+
+Preparation finished, 3.370447 seconds taken
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 3, adjacent nodes 2, 4, 8, -1, gave number 6 at iteration 3
+This communication between the baseStation and the node took 0.000017 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 9, adjacent nodes 8, -1, 4, 14, gave number 6 at iteration 3
+This communication between the baseStation and the node took 0.000006 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 11, adjacent nodes 12, 6, 16, -1, gave number 0 at iteration 2
+This communication between the baseStation and the node took 0.000027 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 7, adjacent nodes 6, -1, 2, 12, gave number 6 at iteration 1
+This communication between the baseStation and the node took 0.000027 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 12, adjacent nodes 11, 13, -1, 17, gave number 1 at iteration 3
+This communication between the baseStation and the node took 0.000027 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 13, adjacent nodes 12, 14, 8, -1, gave number 6 at iteration 3
+This communication between the baseStation and the node took 0.000028 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 14, adjacent nodes 13, 15, 9, -1, gave number 1 at iteration 3
+This communication between the baseStation and the node took 0.000027 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 13, adjacent nodes -1, 14, 8, 18, gave number 8 at iteration 3
+This communication between the baseStation and the node took 0.000019 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 3, adjacent nodes 2, 4, 8, -1, gave number 9 at iteration 4
+This communication between the baseStation and the node took 0.000027 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 7, adjacent nodes 6, 8, 2, 12, gave number 6 at iteration 3
+This communication between the baseStation and the node took 0.000018 seconds
+
+Node 17 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 16, 18, 12, -1 activated 0, 0, 0, -1 events, 0 events in total, 0.076089 seconds taken to exchange the keys, 0.066279 seconds taken to communicate with adjacent nodes
+
+Node 18 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 17, 19, 13, -1 activated 0, 0, 0, -1 events, 0 events in total, 0.045339 seconds taken to exchange the keys, 0.140633 seconds taken to communicate with adjacent nodes
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 19, adjacent nodes 18, 20, 14, -1, gave number 8 at iteration 3
+This communication between the baseStation and the node took 0.000033 seconds
+
+Node 20 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 19, 15, -1, -1 activated 0, 0, -1, -1 events, 0 events in total, 0.000012 seconds taken to exchange the keys, 0.065760 seconds taken to communicate with adjacent nodes
+
+Node 1 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 2, 6, -1, -1 activated 0, 0, -1, -1 events, 0 events in total, 0.031539 seconds taken to exchange the keys, 0.009661 seconds taken to communicate with adjacent nodes
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 2, adjacent nodes 1, 3, 7, -1, gave number 0 at iteration 5
+This communication between the baseStation and the node took 0.000011 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 3, adjacent nodes 2, 4, 8, -1, gave number 2 at iteration 6
+This communication between the baseStation and the node took 0.000011 seconds
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 4, adjacent nodes 3, 5, 9, -1, gave number 4 at iteration 7
+This communication between the baseStation and the node took 0.000010 seconds
+
+Node 5 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 4, 10, -1, -1 activated 0, 0, -1, -1 events, 0 events in total, 0.000008 seconds taken to exchange the keys, 0.247956 seconds taken to communicate with adjacent nodes
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 6, adjacent nodes 7, 1, 11, -1, gave number 0 at iteration 5
+This communication between the baseStation and the node took 0.000011 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 7, adjacent nodes 6, 8, 2, -1, gave number 9 at iteration 4
+This communication between the baseStation and the node took 0.000010 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 8, adjacent nodes 7, 9, 3, 13, gave number 1 at iteration 4
+This communication between the baseStation and the node took 0.000011 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 9, adjacent nodes 8, -1, 4, 14, gave number 9 at iteration 4
+This communication between the baseStation and the node took 0.000011 seconds
+
+Node 10 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 9, 5, 15, -1 activated 0, 0, 0, -1 events, 0 events in total, 0.012009 seconds taken to exchange the keys, 0.029238 seconds taken to communicate with adjacent nodes
+
+Node 11 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 12, 6, 16, -1 activated 1, 1, 1, -1 events, 1 events in total, 0.001617 seconds taken to exchange the keys, 0.095299 seconds taken to communicate with adjacent nodes
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 12, adjacent nodes 11, 13, 7, 17, gave number 1 at iteration 4
+This communication between the baseStation and the node took 0.000018 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 13, adjacent nodes 12, 14, 8, -1, gave number 4 at iteration 5
+This communication between the baseStation and the node took 0.000010 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 14, adjacent nodes 13, 15, 9, -1, gave number 1 at iteration 4
+This communication between the baseStation and the node took 0.000011 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 14, adjacent nodes -1, 15, 9, 19, gave number 8 at iteration 5
+This communication between the baseStation and the node took 0.000011 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 9, adjacent nodes 8, -1, 4, 14, gave number 4 at iteration 5
+This communication between the baseStation and the node took 0.000027 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 13, adjacent nodes 12, 14, -1, 18, gave number 5 at iteration 6
+This communication between the baseStation and the node took 0.000020 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 8, adjacent nodes 7, 9, 3, -1, gave number 0 at iteration 6
+This communication between the baseStation and the node took 0.000026 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 14, adjacent nodes -1, 15, 9, 19, gave number 8 at iteration 6
+This communication between the baseStation and the node took 0.000018 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 9, adjacent nodes 8, 10, 4, -1, gave number 2 at iteration 6
+This communication between the baseStation and the node took 0.000019 seconds
+
+Event occurred at Tue Oct 15 13:06:31 2019
+
+Event reported from Node 13, adjacent nodes 12, 14, 8, -1, gave number 5 at iteration 7
+This communication between the baseStation and the node took 0.000020 seconds
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 9, adjacent nodes 8, -1, 4, 14, gave number 5 at iteration 7
+This communication between the baseStation and the node took 0.000019 seconds
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 12, adjacent nodes 11, -1, 7, 17, gave number 9 at iteration 8
+This communication between the baseStation and the node took 0.000018 seconds
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 14, adjacent nodes 13, 15, 9, -1, gave number 0 at iteration 8
+This communication between the baseStation and the node took 0.000019 seconds
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 8, adjacent nodes 7, 9, 3, -1, gave number 0 at iteration 7
+This communication between the baseStation and the node took 0.000018 seconds
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 8, adjacent nodes 7, 9, -1, 13, gave number 0 at iteration 8
+This communication between the baseStation and the node took 0.003055 seconds
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 7, adjacent nodes -1, 8, 2, 12, gave number 5 at iteration 8
+This communication between the baseStation and the node took 0.000020 seconds
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 7, adjacent nodes -1, 8, 2, 12, gave number 6 at iteration 9
+This communication between the baseStation and the node took 0.000019 seconds
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 13, adjacent nodes 12, -1, 8, 18, gave number 6 at iteration 9
+This communication between the baseStation and the node took 0.000019 seconds
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 12, adjacent nodes 11, 13, 7, -1, gave number 0 at iteration 9
+This communication between the baseStation and the node took 0.000018 seconds
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 3, adjacent nodes 2, 4, 8, -1, gave number 5 at iteration 8
+This communication between the baseStation and the node took 0.000020 seconds
+
+Node 15 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 14, 10, 20, -1 activated 0, 0, 0, -1 events, 0 events in total, 0.078741 seconds taken to exchange the keys, 0.192196 seconds taken to communicate with adjacent nodes
+
+Node 16 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 17, 11, -1, -1 activated 0, 0, -1, -1 events, 0 events in total, 0.119359 seconds taken to exchange the keys, 0.093035 seconds taken to communicate with adjacent nodes
+
+Node 6 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 7, 1, 11, -1 activated 1, 1, 1, -1 events, 1 events in total, 0.057865 seconds taken to exchange the keys, 0.023762 seconds taken to communicate with adjacent nodes
+
+Node 12 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 11, 13, 7, 17 activated 4, 3, 3, 3 events, 4 events in total, 0.000014 seconds taken to exchange the keys, 0.019236 seconds taken to communicate with adjacent nodes
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 14, adjacent nodes 13, -1, 9, 19, gave number 8 at iteration 9
+This communication between the baseStation and the node took 0.000022 seconds
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 8, adjacent nodes -1, 9, 3, 13, gave number 8 at iteration 9
+This communication between the baseStation and the node took 0.000031 seconds
+
+Node 2 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 1, 3, 7, -1 activated 1, 1, 1, -1 events, 1 events in total, 0.035554 seconds taken to exchange the keys, 0.012020 seconds taken to communicate with adjacent nodes
+
+Node 8 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 7, 9, 3, 13 activated 4, 5, 4, 3 events, 5 events in total, 0.008053 seconds taken to exchange the keys, 0.007629 seconds taken to communicate with adjacent nodes
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 4, adjacent nodes 3, 5, 9, -1, gave number 2 at iteration 10
+This communication between the baseStation and the node took 0.000030 seconds
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 14, adjacent nodes -1, 15, 9, 19, gave number 4 at iteration 10
+This communication between the baseStation and the node took 0.000022 seconds
+
+Node 4 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 3, 5, 9, -1 activated 2, 2, 2, -1 events, 2 events in total, 0.016024 seconds taken to exchange the keys, 0.012853 seconds taken to communicate with adjacent nodes
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 13, adjacent nodes 12, -1, 8, 18, gave number 0 at iteration 10
+This communication between the baseStation and the node took 0.000021 seconds
+
+Node 14 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 13, 15, 9, 19 activated 4, 6, 7, 4 events, 7 events in total, 0.043788 seconds taken to exchange the keys, 0.035590 seconds taken to communicate with adjacent nodes
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 13, adjacent nodes 12, 14, 8, -1, gave number 1 at iteration 10
+This communication between the baseStation and the node took 0.000029 seconds
+
+Node 19 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 18, 20, 14, -1 activated 1, 1, 1, -1 events, 1 events in total, 0.088898 seconds taken to exchange the keys, 0.156659 seconds taken to communicate with adjacent nodes
+
+Node 13 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 12, 14, 8, 18 activated 7, 6, 7, 4 events, 8 events in total, 0.106992 seconds taken to exchange the keys, 0.080342 seconds taken to communicate with adjacent nodes
+
+Node 7 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 6, 8, 2, 12 activated 3, 4, 5, 4 events, 5 events in total, 0.052327 seconds taken to exchange the keys, 0.180503 seconds taken to communicate with adjacent nodes
+
+Node 3 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 2, 4, 8, -1 activated 4, 4, 4, -1 events, 4 events in total, 0.077769 seconds taken to exchange the keys, 0.118196 seconds taken to communicate with adjacent nodes
+
+Event occurred at Tue Oct 15 13:06:32 2019
+
+Event reported from Node 9, adjacent nodes 8, -1, 4, 14, gave number 1 at iteration 10
+This communication between the baseStation and the node took 0.000029 seconds
+
+Node 9 terminated at Tue Oct 15 13:06:32 2019
+. Adjacent nodes 8, 10, 4, 14 activated 6, 1, 6, 5 events, 6 events in total, 0.043732 seconds taken to exchange the keys, 0.148324 seconds taken to communicate with adjacent nodes
+
+Iteration	Events	Messages To BS	BS Encryption Time
+1		1		1		0.267553
+2		1		1		0.234910
+3		8		8		2.134143
+4		6		6		1.567295
+5		5		5		1.335967
+6		5		5		1.198647
+7		4		4		0.970781
+8		5		5		1.308732
+9		5		5		1.205300
+10		5		5		1.348037
+
+Iteration	Nodes Encryption Time	All Messages
+1		1.791760		63
+2		0.737748		63
+3		0.947562		70
+4		0.797943		68
+5		0.678886		67
+6		1.185355		67
+7		1.521230		66
+8		1.455358		67
+9		0.769800		67
+10		0.898689		67
+
+Encryption Time in the nodes: 10.784331
+Encryption Time in the BaseStation: 11.571365
+
+The program finished correctly, it has taken 33.789135 seconds in total
