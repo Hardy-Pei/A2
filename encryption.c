@@ -14,7 +14,7 @@ int publicKey(long p, long q, long *exp, long *mod) {
 	long sqt, temp;
 	*mod = (p-1)*(q-1);
 	sqt = (*mod)/2;
-	temp = 0;
+	temp = 1;
 	while (sqt != temp) {
 		temp = sqt;
 		sqt = ((*mod)/temp+temp)/2;
@@ -72,6 +72,7 @@ int decrypt(long * in, long exp, long mod, long * out, size_t len) {
 
 int encrypt_p(long *in, long exp, long mod, long *out, size_t len) {
 	int i, chunk = 1;
+	printf("%ld\n", mod);
 	#pragma omp parallel shared(in, out, exp, mod, chunk) private(i)
 	{
 		#pragma omp for schedule(dynamic, chunk)

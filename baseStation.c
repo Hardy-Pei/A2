@@ -10,7 +10,7 @@ int baseStation(int msgTag, int exitTag, int rank, MPI_Datatype eventInfo) {
 	char timeInfo[maxlen];
 	time_t triggerTime;
 	int i, etArray[numOfIterations], msgArray[numOfIterations], nNodes = 20;;
-	double aaa = 0, bbb = 0;
+	double pTime = 0, sTime = 0;
 	char address[maxlen/2];
 
 	startPre = MPI_Wtime();
@@ -58,17 +58,18 @@ int baseStation(int msgTag, int exitTag, int rank, MPI_Datatype eventInfo) {
 			fprintf(fp, "Node %ld terminated at %s. ", infoTem[8], timeInfo);
 			fprintf(fp,"Adjacent nodes %ld, %ld, %ld, %ld activated %ld, %ld, %ld, %ld events, %ld events in total, %f seconds taken to exchange the keys, %f seconds taken to communicate with adjacent nodes\n\n", infoTem[0], infoTem[2], infoTem[4], infoTem[6], infoTem[1], infoTem[3], infoTem[5], infoTem[7], infoTem[9], (double)infoTem[10]/scale, (double)infoTem[11]/scale); 
 		} else {
-			startEn = MPI_Wtime();
-			decrypt_p(eventRecv.triggerInfo, priKeys[0], priKeys[1], infoTem, infoNum);
-			decrypt_p(eventRecv.timestamp, priKeys[0], priKeys[1], timeTemp, timeMsgLen);
-			endEn = MPI_Wtime();
-			aaa += endEn -startEn;
 
 			startEn = MPI_Wtime();
 			decrypt(eventRecv.triggerInfo, priKeys[0], priKeys[1], infoTem, infoNum);
 			decrypt(eventRecv.timestamp, priKeys[0], priKeys[1], timeTemp, timeMsgLen);
 			endEn = MPI_Wtime();
-			bbb += endEn - startEn;
+			sTime += endEn - startEn;
+
+			startEn = MPI_Wtime();
+			decrypt_p(eventRecv.triggerInfo, priKeys[0], priKeys[1], infoTem, infoNum);
+			decrypt_p(eventRecv.timestamp, priKeys[0], priKeys[1], timeTemp, timeMsgLen);
+			endEn = MPI_Wtime();
+			pTime += endEn -startEn;
 
 			long2char(timeTemp, timeInfo, timeMsgLen);
 			fprintf(fp, "Event occurred at %s\n", timeInfo);
@@ -105,7 +106,7 @@ int baseStation(int msgTag, int exitTag, int rank, MPI_Datatype eventInfo) {
 	end = MPI_Wtime();
 	fprintf(fp, "\nThe program finished correctly, it has taken %f seconds in total\n", end-start);
 	fclose(fp);
-	printf("Serial: %f\n", bbb);
-	printf("Parallel: %f\n", aaa);
+	printf("Serial: %f\n", sTime);
+	printf("Parallel: %f\n", pTime);
 	return 0;
 }
