@@ -74,7 +74,7 @@ int encrypt_p(long *in, long exp, long mod, long *out, size_t len) {
 	int i, chunk = 1;
 	#pragma omp parallel shared(in, out, exp, mod, chunk) private(i)
 	{
-		#pragma omp for schedule(static, chunk)
+		#pragma omp for schedule(dynamic, chunk)
 		for (i=0; i< len; i++) {
 			long c = in[i];
 			int z;
@@ -94,7 +94,7 @@ int decrypt_p(long * in, long exp, long mod, long * out, size_t len) {
 	int i, chunk = 1;
 	#pragma omp parallel shared(in, out, exp, mod, chunk) private(i)
 	{
-		#pragma omp for schedule(static, chunk)
+		#pragma omp for schedule(dynamic, chunk)
 		for (i=0; i<len; i++) {
 			long int c = in[i];
 			int z;
